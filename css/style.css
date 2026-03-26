@@ -1,0 +1,35 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #575f7d;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: white;
+  width: 220px;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
